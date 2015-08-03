@@ -3,9 +3,8 @@
 
 
 from sqlalchemy import Column
-from ..dbs import db
+from ..extensions import db
 from .constants import HOST_OK
-
 
 class Host(db.Model):
 
